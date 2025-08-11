@@ -23,7 +23,7 @@ function App() {
       <h2>{time.toLocaleDateString()}</h2>
 
       <h3>Counter: {count}</h3>
-      <div>
+      <div className="buttons">
         <button onClick={() => setCount(count + 1)}>Increment</button>
         <button onClick={() => count >0 &&  setCount(count - 1)}>Decrement</button>
         <button onClick={() => setCount(0)}>Rest</button>
